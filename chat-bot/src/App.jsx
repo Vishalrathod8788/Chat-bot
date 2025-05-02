@@ -1,8 +1,9 @@
+import { Chatbot } from "./components/Chatbot";
+
 function app() {
   return (
-    <div className="container">
-      <h1>React</h1>
-      <p>React is a JavaScript library for building user interfaces.</p>
+    <div className="App">
+      <Chatbot />
     </div>
   );
 }
