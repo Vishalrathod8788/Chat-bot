@@ -57,7 +57,7 @@ export const Chatbot = () => {
             },
             { role: "user", content: input },
           ],
-          max_tokens: 50,
+          max_tokens: 25
         },
         {
           headers: {
